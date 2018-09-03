@@ -1,0 +1,9 @@
+en:
+  key: value
+  another_key: Another value goes here.
+  # Nesting uses indentation. 2 space indent is preferred (but not required).
+  a_nested_map:
+    key: value
+    another_key: Another Value
+    another_nested_map:
+      hello: hello

@@ -1,0 +1,67 @@
+en:
+  # Comments in YAML look like this.
+
+  ################
+  # SCALAR TYPES #
+  ################
+
+  # Our root object (which continues for the entire document) will be a map,
+  # which is equivalent to a dictionary, hash or object in other languages.
+  key: value
+  another_key: Another value goes here.
+  a_number_value: 100
+  a_float_value: 12
+  scientific_notation: 1e+12
+  # The number 1 will be interpreted as a number, not a boolean. if you want
+  # it to be interpreted as a boolean, use true
+  boolean: true
+  null_value: null
+  empty_value: 
+  empty_value_quoted:  ''
+  key with spaces: value
+  # Notice that strings don't need to be quoted. However, they can be.
+  however: 'A string, enclosed in quotes.'
+  'Keys can be quoted too.': "Useful if you want to put a ':' in your key."
+  single quotes: 'have ''one'' escape pattern'
+  double quotes: "have many: \", \0, \t, \u263A, \x0d\x0a == \r\n, and more."
+
+  # Multiple-line strings can be written either as a 'literal block' (using |),
+  # or a 'folded block' (using '>').
+  literal_block: |
+      This entire block of text will be the value of the 'literal_block' key,
+      with line breaks being preserved.
+
+      The literal continues until de-dented, and the leading indentation is
+      stripped.
+
+          Any lines that are 'more-indented' keep the rest of their indentation -
+          these lines will be indented by 4 spaces.
+  folded_style: >
+      This entire block of text will be the value of 'folded_style', but this
+      time, all newlines will be replaced with a single space.
+
+      Blank lines, like above, are converted to a newline character.
+
+          'More-indented' lines keep their newlines, too -
+          this text will appear over two lines.
+
+  ####################
+  # COLLECTION TYPES #
+  ####################
+
+  # Nesting uses indentation. 2 space indent is preferred (but not required).
+  a_nested_map:
+    key: value
+    another_key: Another Value
+    another_nested_map:
+      hello: hello
+
+  # Sequences (equivalent to lists or arrays) look like this
+  # (note that the '-' counts as indentation):
+  a_sequence:
+  - Item 1
+  - Item 2
+
+  json_map: {"key": "value"}
+  json_seq: [3, 2, 1, "takeoff"]
+  and quotes are optional: {key: [3, 2, 1, takeoff]}
