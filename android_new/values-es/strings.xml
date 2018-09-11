@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="bbbbbbbbbbbbbbb">n</string>
+  <plurals name="aaaaaaaaaaa">
+    <item quantity="one">h</item>
+    <item quantity="other">i</item>
+  </plurals>
+</resources>
