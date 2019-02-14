@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<resources>
-  <string name="bbbbbbbbbbbbbbb">k</string>
-  <plurals name="aaaaaaaaaaa">
-    <item quantity="one">b</item>
-    <item quantity="other">c</item>
-  </plurals>
-</resources>
