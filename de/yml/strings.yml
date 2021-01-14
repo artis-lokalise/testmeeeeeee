@@ -1,0 +1,38 @@
+de:
+    key: ''
+    another_key: ''
+    a_number_value: 0
+    a_float_value: 0
+    scientific_notation: ''
+    boolean: ''
+    null_value: ''
+    empty_value: ''
+    empty_value_quoted: ''
+    'key with spaces': ''
+    however: ''
+    'Keys can be quoted too.': ''
+    'single quotes': ''
+    'double quotes': " \0, \t, ☺, \r\n == \r\n, and more."
+    literal_block: "\n\n\n\n    \n"
+    folded_style: "\n\n\n    \n"
+    a_nested_map:
+        key: ''
+        another_key: ''
+        another_nested_map:
+            hello: ''
+    a_sequence:
+        - ''
+        - ''
+    json_map:
+        key: ''
+    json_seq:
+        - 0
+        - 0
+        - 0
+        - ''
+    'and quotes are optional':
+        key:
+            - 0
+            - 0
+            - 0
+            - ''
